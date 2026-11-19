@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@theme {
+  --color-cream: #F9FAE7;
+  --color-sun: #F6E642;
+  --color-ink: #0A1603;
+  --color-butter: #FAFAA2;
+  --color-blue: #315CA5;
+  --color-forest: #31521F;
+  --color-sky: #9CB8D5;
+  --color-steel: #6191A5;
+  --color-night: #0F0F0F;   /* dark sections + menu */
+  --color-paper: #F2EADB;   /* aged paper */
+  --color-beige: #E3DCCB;   /* vintage beige */
+  --color-brown: #8A7962;   /* muted brown */
+  --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-hand: 'Caveat', cursive;
+  --font-serif: 'Newsreader', Georgia, serif;
+  --font-gothic: 'UnifrakturMaguntia', 'Newsreader', serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body { background: var(--color-cream); color: var(--color-ink); font-family: var(--font-display); overflow-x: hidden; }
+@media (pointer: fine) { body.has-cursor, body.has-cursor a, body.has-cursor button, body.has-cursor [data-cursor] { cursor: none; } }
+::selection { background: var(--color-sun); }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } html { scroll-behavior: auto; } }
+.stroke-text { -webkit-text-stroke: 2px var(--color-ink); color: transparent; }
+:focus-visible { outline: 2px solid var(--color-blue); outline-offset: 3px; }
