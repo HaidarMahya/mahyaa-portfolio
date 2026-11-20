@@ -817,7 +817,7 @@ export default function Skills() {
             rot={-6}
             className="absolute left-[1%] top-[3%] z-0 w-40"
           >
-            <Snap src="/images/Green.jpg" cap="Ref 01" pos="50% 50%" />
+            <Snap src="/images/HTML.jpg" pos="50% 50%" />
           </Float>
           <Float
             {...f}
@@ -845,8 +845,7 @@ export default function Skills() {
             className="absolute bottom-[4%] right-[1%] z-0 w-40"
           >
             <Snap
-              src="/images/Sign up.png"
-              cap="Ref 02"
+              src="/images/Tailwindcss.jpg"
               pos="50% 50%"
               tape="-top-3 left-1/2 -translate-x-1/2"
             />
@@ -868,7 +867,7 @@ export default function Skills() {
             delay={0.4}
             className="absolute right-[4%] top-[40%] z-0 w-36"
           >
-            <Snap src="/images/about-rebel.jpg" cap="Ref 03" pos="50% 50%" />
+            <Snap src="/images/JS2.png" pos="50% 50%" />
           </Float>
 
           <Float
@@ -879,8 +878,7 @@ export default function Skills() {
             className="absolute left-[18%] bottom-[2%] z-0 w-44 hidden xl:block"
           >
             <Snap
-              src="/images/Smaller Banners.png"
-              cap="Ref 04"
+              src="/images/Figma.jpg"
               pos="50% 50%"
               tape="-top-3 left-1/4"
             />
